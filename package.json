@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server -d --progress --colors",
     "build": "cross-env NODE_ENV=production npm run prettier && rollup -c",
-    "prettier": "find src/ test/ -type f -name \"*.js\" ! -path \"*/.next/*\" | xargs prettier --write",
+    "prettier": "find src/ test/ -type f -name \"*.js\" ! -path \"*/.next/*\" | xargs prettier --write"
   },
   "repository": {
     "type": "git",
